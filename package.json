@@ -1,0 +1,26 @@
+{
+  "name": "crud-com-sqlite",
+  "version": "1.0.0",
+  "description": "usu do CRUD com SQlite",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendo72/CRUD-com-SQlite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendo72/CRUD-com-SQlite/issues"
+  },
+  "homepage": "https://github.com/brendo72/CRUD-com-SQlite#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
